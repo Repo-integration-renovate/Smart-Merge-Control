@@ -1,3 +1,10 @@
 {
-  "settingsInheritedFrom": "Repo-integration-renovate/whitesource-config@main"
+  "settingsInheritedFrom": "Repo-integration-renovate/whitesource-config@main",
+  "remediateSettings": {
+    "extends": [
+      "config:recommended",
+      "mergeConfidence:all-badges",
+      "github>Mend-renovate-ee/MyPresets:smart-merge"
+    ]
+  }
 }
